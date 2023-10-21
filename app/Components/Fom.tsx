@@ -1,11 +1,11 @@
-import { Button, Input } from '../Components/NextUI';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BiSolidUser } from 'react-icons/bi';
-import { BsFillLockFill } from 'react-icons/bs';
+import { Button, Input } from "../Components/NextUI";
+import { HiOutlineMail } from "react-icons/hi";
+import { BiSolidUser } from "react-icons/bi";
+import { BsFillLockFill } from "react-icons/bs";
 
 const Form = () => {
   return (
-    <form className="space-y-3">
+    <form className="space-y-3 max-w-md mx-auto">
       <h3 className="text-center text-2xl">Regestration</h3>
       <Input
         type="text"

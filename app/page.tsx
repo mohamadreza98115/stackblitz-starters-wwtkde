@@ -1,5 +1,4 @@
-import Form from './Components/Fom';
-import { ThemeSwitcher } from './Components/theme-switch';
+import Form from "./Components/Fom";
 
 export default function Home() {
   return (
